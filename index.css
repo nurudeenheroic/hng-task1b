@@ -7,6 +7,10 @@ body {
     align-items: center;
     box-sizing: border-box;
 }
+.epoch-time-container{
+    width: 100%;
+    background-color: white;
+}
 .profile-card{
     display: flex;
     flex-direction: column;
