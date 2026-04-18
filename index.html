@@ -7,6 +7,48 @@
     <title>Profile Card(HNG Task 1B)</title>
 </head>
 <body>
+    <center>
+        <article data-testid="test-profile-card" class="profile-card">
+                <header class="header">
+                    <h2 data-testid="test-user-name" class="profile-name">
+                        John Doe
+                    </h2>
+                    <figure>
+                        <img src="./image-avatar.png" alt="John Doe" class="profile-pic" data-testid="test-user-avatar">
+                    </figure>
+                </header>
+            <p data-testid="test-user-bio" class="profile-bio">
+                My name is John Doe and I am a software engineer. I started my journey in software development three years ago.I have been working in the industry for a few years now working towards professionalism. 
+            </p>
+            <section class="hobbies-dislikes">
+                <ul class="hobbies" data-testid="test-user-hobbies">
+                    <label for="hobbies">Hobbies</label>
+                    <li>Football</li>
+                    <li>Swimming</li>
+                    <li>Reading</li>
+                    <li>Traveling</li>
+                </ul>
+                <ul class="dislikes" data-testid="test-user-dislikes">
+                    <label for="dislikes" class="dislikes-label">Dislikes</label>
+                    <li>Procrastination</li>
+                    <li>Laziness</li>
+                    <li>Perfectionism</li>
+                    <li>Impatience</li>
+                </ul>
+            </section>
+            <section>
+                <time datetime=""></time>
+            </section>
+            <section class="social-links-section">
+                <ul class="social-links" data-testid="test-user-social-links">
+                    <li data-testid="test-user-social-twitter"><a href="twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                    <li data-testid="test-user-social-linkedin"><a href="linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                    <li data-testid="test-user-social-github"><a href="github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li data-testid="test-user-social-instagram"><a href="instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                </ul>
+            </section>
+        </article>
+    </center>
     <script src="./index.js"></script>
 </body>
 </html>
